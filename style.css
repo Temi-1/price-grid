@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Karla', sans-serif;
+}
+.banner{
+    margin: 2em 4em;
+    padding: 1em 1.5em;
+}
+.banner h1{
+    font-weight: 700;
+    font-size: 2.5em;
+    font-stretch: ultra-expanded;
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 1em;
+    letter-spacing: .05em;
+}
+.banner h2{
+    font-size: 1.8em;
+    font-stretch: ultra-expanded;
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 1em;
+    font-stretch: ultra-expanded;
+    letter-spacing: .03em;
+}
+.banner p{
+    font-stretch: expanded;
+    font-size: 1.5em;
+    color: hsl(208, 6%, 54%);
+    padding-bottom: .5em;
+    font-stretch: ultra-expanded;
+    letter-spacing: .03em;
+    line-height: 1.5em;
+}
+.footer-div{
+    display: flex;
+    align-items:flex-start ;
+    margin: 0;
+    padding: 0;
+    color: rgb(242, 242, 232);
+}
+.monthly-sub{
+    margin: 0;
+    padding: 3em 5.5em;
+    width: 50%;
+    background: hsl(180, 73%, 36%);
+}
+.monthly-sub h1{
+    font-weight: 500;
+    font-size: 2em;
+    font-stretch: ultra-expanded;
+    padding-bottom: .8em;
+}
+.monthly-sub .fee{
+    display: flex;
+    align-items: center;
+    /* padding-bottom: 1em ; */
+}
+.monthly-sub .price{
+    font-weight: 500;
+    font-size: 3em;
+    padding: .5em .2em 0 0;
+}
+.monthly-sub .access{
+    margin: 2em 2em 3.5em 0;
+}
+.monthly-sub .duration{
+    margin-top: 1em;
+}
+.button{
+    margin: 2em 3em 3em 0;
+    padding: 1em 10em;
+    color: rgb(252, 252, 245);
+    border: 2px gray;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: hsl(78, 78%, 58%);
+    transition-duration: .4s;
+}
+.button:hover{
+    box-shadow: honeydew;
+    background-color: hsl(77, 22%, 68%);
+}
+.why-us{
+    margin:0;
+    padding: 3em 7em;
+    width: 50%;
+    background: hsl(180, 45%, 54%);
+}
+.why-us h1{
+    padding-bottom: 1em;
+}
+.why-us ul{
+    list-style-type: none;
+    line-height: 1.78em;
+}
+@media screen and (max-width: 800px) {
+    .banner{
+        margin: 2em 2em .5em;
+        padding: 1em 1em;
+    }
+    .banner h1{
+        font-size: 1.5em;
+    }
+    .banner h2{
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    .banner p{
+        font-size: .8em;
+    }
+    .footer-div{
+        display: initial;
+    }
+    .monthly-sub{
+        margin: 0;
+        padding: 2.5em .5em 3.5em 3em;
+        width: 90%;
+    }
+    .monthly-sub h1{
+        font-weight: 500;
+        font-size: 1.8em;
+        font-stretch: ultra-expanded;
+        padding-bottom: .2em;
+    }
+    .monthly-sub .fee{
+        display: flex;
+        align-items: center;
+        /* padding-bottom: 1em ; */
+    }
+    .monthly-sub .price{
+        font-weight: 500;
+        font-size: 2em;
+        padding: .5em .2em 0 0;
+    }
+    .monthly-sub .access{
+        margin: 2em 2em 2.5em 0;
+    }
+    .monthly-sub .duration{
+        margin-top: 1em;
+        font-size: .9em;
+    }
+    .button{
+        margin: 1em 0 3em 0;
+        padding: .5em 6em;
+        color: rgb(252, 252, 245);
+        border: 2px gray;
+        border-radius: 7px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .why-us{
+        margin:0;
+        padding: 2.5em 3.5em;
+        width: 77.1%;
+        background: hsl(180, 45%, 54%);
+    }
+    .why-us h1{
+        padding-bottom: 1em;
+        font-weight: 500;
+        font-size: 1.8em;
+    }
+    .why-us ul{
+        list-style-type: none;
+        line-height: 1.5em;
+        font-size: 1em;
+}
